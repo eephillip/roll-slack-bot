@@ -1,0 +1,4 @@
+.DS_store
+*.sublime-workspace
+/json_file_store
+/node_modules

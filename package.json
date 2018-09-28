@@ -1,0 +1,35 @@
+{
+  "name": "roll-slack-bot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "grunt test:all",
+    "watch": "grunt watch:all",
+    "postinstall": "patch-package"
+  },
+  "author": "eephillip",
+  "license": "MIT",
+  "dependencies": {
+    "botkit": "0.6.16",
+    "botkit-storage-mongo": "^1.0.7",
+    "mongodb": "^3.1.6",
+    "roll": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-mocha-test": "^0.13.3",
+    "mocha": "^5.2.0",
+    "patch-package": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eephillip/roll-slack-bot.git"
+  }
+}
