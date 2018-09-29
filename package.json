@@ -4,7 +4,8 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "start": "DEBUG=* node lib/index.js",
+    "start": "node lib/index.js",
+    "debug": "DEBUG=* node lib/index.js",
     "test": "grunt test:all",
     "watch": "grunt watch:all"
   },
