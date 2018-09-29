@@ -1,11 +1,14 @@
 #### roll-slack-bot
-NodeJS botkit based slack slash command integration.
+NodeJS slack slash command integration.
+https://github.com/slackapi/template-slash-command-and-dialogs
+
 
 When you provide an invalid roll string the system will return with a random quote.
-
 101 Things You Never Want To Hear Your DM Say...
 http://www.hahnlibrary.net/rpgs/101dms.html
 
-##### Notes
-Using a postinstall to patch botkit
-Address TypeError seen in Issue 1447 #1453
+#### Notes
+
+
+#### Version
+0.2.0
