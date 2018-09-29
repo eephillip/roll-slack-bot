@@ -8,7 +8,8 @@ When you provide an invalid roll string the system will return with a random quo
 http://www.hahnlibrary.net/rpgs/101dms.html
 
 #### Notes
+Env comma delimited variables will serve requests from multiple slack domains
 
 
 #### Version
-0.2.0
+0.3.0
