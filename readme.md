@@ -1,22 +1,18 @@
-#### roll-slack-bot
-NodeJS slack slash command integration.
-https://github.com/slackapi/template-slash-command-and-dialogs
-https://api.slack.com/apps?new_app_token=1
+## roll-slack-bot
+![roll-slack-bot](../assets/roll-slack-bot.png?raw=true)
+
+NodeJS slack slash command integration. [template-slash-command-and-dialogs](https://github.com/slackapi/template-slash-command-and-dialogs/)
 
 When you provide an invalid roll string the system will return with a random quote.
-101 Things You Never Want To Hear Your DM Say...
-http://www.hahnlibrary.net/rpgs/101dms.html
+101 Things You Never Want To Hear Your DM Say... [link](http://www.hahnlibrary.net/rpgs/101dms.html)
+
+### Usage
+`/roll 2d20+5 5d6 2d20b1 [sign]`
+The results will be gpg signed by adding "sign" in the roll command.
+
+### Notes
+Environment variables can be comma delimited to serve requests from multiple slack domains
 
 
-#### Usage
-If you would like the results to be gpg signed just add "sign" in the roll command anywhere
-
-
-#### Notes
-Env comma delimited variables will serve requests from multiple slack domains
-
-
-
-
-#### Version
+### Version
 0.4.0
