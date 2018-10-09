@@ -19,7 +19,11 @@
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "gpg": "^0.6.0",
+    "mongodb": "^3.1.6",
+    "pretty-bytes": "^5.1.0",
+    "pug": "^2.0.3",
     "roll": "^1.2.0",
+    "shortid": "^2.2.13",
     "text-table": "^0.2.0"
   },
   "devDependencies": {
