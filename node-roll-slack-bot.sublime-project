@@ -12,6 +12,8 @@
     "settings" : {
         "translate_tabs_to_spaces": true,
         "tab_size":4,
+        "SublimeLinter.linters.jshint.disable": false,
+        "SublimeLinter.linters.jshint.excludes": "*/*.pug"
     },
     "build_systems" : []
 }
