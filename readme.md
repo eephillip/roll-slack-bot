@@ -15,4 +15,4 @@ Environment variables can be comma delimited to serve requests from multiple sla
 
 
 ### Version
-0.4.0
+0.5.0
