@@ -7,7 +7,8 @@
     "start": "node lib/index.js",
     "dev": "DEBUG=* node lib/index.js",
     "test": "grunt test:all",
-    "watch": "grunt watch:all"
+    "watch": "grunt watch:all",
+    "tun": "lt --port 5000 -s roll"
   },
   "author": "eephillip",
   "license": "MIT",
@@ -19,6 +20,7 @@
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "gpg": "^0.6.0",
+    "localtunnel": "^1.9.1",
     "mongodb": "^3.1.6",
     "pretty-bytes": "^5.1.0",
     "pug": "^2.0.3",

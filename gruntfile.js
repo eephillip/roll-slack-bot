@@ -8,12 +8,12 @@ module.exports = function(grunt) {
                 options: {
                     reporter: 'spec',
                 },
-                src: ['test/**/*.js']
+                src: ['test/**/*.js', 'test/*.js']
             }
         },
         watch: {
             all: {
-                files: ['lib/**/*.js','test/**/*.js'],
+                files: ['lib/**/*.js', 'test/**/*.js', 'test/*.js'],
                 tasks: ['mochaTest:all']
             }
         }
@@ -22,7 +22,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-mocha-test');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('watch', ['watch:all']);
+    grunt.registerTask('watch-tests', ['watch:all']);
     grunt.registerTask('test', ['mochaTest']);
+
+
+    grunt.registerTask('default', ['watch-tests']);
 
 };
