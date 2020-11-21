@@ -1,20 +1,20 @@
 {
-    "folders":
-    [
-        {
-            "folder_exclude_patterns": [
-                    "node_modules"
-                ],
-                "path": ".",
-                "file_exclude_patterns": ["package-lock.json"]
-        }
-    ],
-    "settings" : {
-        "translate_tabs_to_spaces": true,
-        "tab_size":4,
-        "SublimeLinter.linters.jshint.disable": false,
-        "SublimeLinter.linters.jshint.excludes": "*/*.pug"
-    },
-    "build_systems" : []
+  "build_systems": [],
+  "folders": [
+    {
+      "file_exclude_patterns": [
+        "package-lock.json"
+      ],
+      "folder_exclude_patterns": [
+        "node_modules"
+      ],
+      "path": "."
+    }
+  ],
+  "settings": {
+    "SublimeLinter.linters.jshint.disable": false,
+    "SublimeLinter.linters.jshint.excludes": "*/*.pug",
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true
+  }
 }
-
